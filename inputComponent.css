@@ -1,0 +1,36 @@
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 36px;
+}
+.label {
+    display: flex;
+    margin-bottom: 0.25rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    color: #c2e9e0;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #76c0ae;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #c2e9e0;
+    font-size: 1rem;
+}
+
+.input-error {
+    border: 2px red solid;
+}
+
+.label-error {
+    color: red;
+}
+
